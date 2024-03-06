@@ -1,10 +1,10 @@
+number_of_subject = int(input("Enter number of students: "))
+
 report_card = []
 
 total_score = 0
 
-running = True
-
-while running:
+for i in range(number_of_subject):
     
     subject = input("Enter Subject Name Or enter \"end\" to stop the program: ")
     
